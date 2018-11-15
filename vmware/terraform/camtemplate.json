@@ -1,5 +1,5 @@
 {
-    "name": "IBM Cloud Private Medium Setup Installation",
+    "name": "Sandbox 2 - Medium Size Deployment of IBM Cloud Private",
     "description": "This template will deploy medium instance of IBM Cloud Private",
     "version": "1.0",
     "imageUrl": "",
