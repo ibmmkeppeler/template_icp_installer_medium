@@ -36,7 +36,7 @@ resource "null_resource" "create-temp-random-dir" {
 }
 
 module "deployVM_boot" {
-  source = "git::https://github.com/IBM-CAMHub-Open/template_icp_modules.git?ref=2.2//vmware_provision"
+  source = "git::https://github.com/ibmmkeppeler/template_icp_modules.git?ref=master//vmware_provision"
 
   #######
   vsphere_datacenter    = "${var.vsphere_datacenter}"
@@ -87,7 +87,7 @@ module "deployVM_boot" {
 }
 
 module "deployVM_master" {
-  source = "git::https://github.com/IBM-CAMHub-Open/template_icp_modules.git?ref=2.2//vmware_provision"
+  source = "git::https://github.com/ibmmkeppeler/template_icp_modules.git?ref=master//vmware_provision"
 
 
   #######
@@ -139,7 +139,7 @@ module "deployVM_master" {
 }
 
 module "deployVM_manage" {
-  source = "git::https://github.com/IBM-CAMHub-Open/template_icp_modules.git?ref=2.2//vmware_provision"
+  source = "git::https://github.com/ibmmkeppeler/template_icp_modules.git?ref=master//vmware_provision"
 
   #######
   vsphere_datacenter    = "${var.vsphere_datacenter}"
@@ -190,7 +190,7 @@ module "deployVM_manage" {
 }
 
 module "deployVM_proxy" {
-  source = "git::https://github.com/IBM-CAMHub-Open/template_icp_modules.git?ref=2.2//vmware_provision"
+  source = "git::https://github.com/ibmmkeppeler/template_icp_modules.git?ref=master//vmware_provision"
 
 
   #######
@@ -241,7 +241,7 @@ module "deployVM_proxy" {
 }
 
 module "deployVM_worker" {
-  source = "git::https://github.com/IBM-CAMHub-Open/template_icp_modules.git?ref=2.2//vmware_provision"
+  source = "git::https://github.com/ibmmkeppeler/template_icp_modules.git?ref=master//vmware_provision"
 
 
   #######
@@ -292,7 +292,7 @@ module "deployVM_worker" {
 }
 
 module "deployVM_VA_Server" {
-  source = "git::https://github.com/IBM-CAMHub-Open/template_icp_modules.git?ref=2.2//vmware_provision"
+  source = "git::https://github.com/ibmmkeppeler/template_icp_modules.git?ref=master//vmware_provision"
   
 
   #######
@@ -344,7 +344,7 @@ module "deployVM_VA_Server" {
 }
 
 module "deployVM_NFS_Server" {
-  source = "git::https://github.com/IBM-CAMHub-Open/template_icp_modules.git?ref=2.2//vmware_provision"
+  source = "git::https://github.com/ibmmkeppeler/template_icp_modules.git?ref=master//vmware_provision"
 
   #######
   vsphere_datacenter    = "${var.vsphere_datacenter}"
