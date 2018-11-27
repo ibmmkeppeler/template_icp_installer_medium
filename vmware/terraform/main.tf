@@ -404,6 +404,7 @@ module "icphosts" {
   enable_vm_va          = "${var.enable_vm_va}"
   enable_glusterFS      = "${var.worker_enable_glusterFS}"
   random                = "${random_string.random-dir.result}"
+  icp_version           = "${var.icp_version}"
 }
 
 module "icp_prereqs" {
